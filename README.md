@@ -164,6 +164,15 @@ If you use this code in your work, please, cite it as:
 
 Ferrer, L. and Riera, P. Confidence Intervals for evaluation in machine learning [Computer software]. https://github.com/luferrer/ConfidenceIntervals
 
+or, for bibtext:
+
+```
+@software{Confidence_Intervals,
+author = {Ferrer, Luciana and Riera, Pablo},
+title = {Confidence Intervals for evaluation in machine learning},
+url = {https://github.com/luferrer/ConfidenceIntervals}}
+```
+
 # References
 
 * **Bootstrapping in general**: 

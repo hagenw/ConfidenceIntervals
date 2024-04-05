@@ -13,9 +13,9 @@ def metric_wrapper(labels, samples, samples2, metric, indices=None):
     if indices is None:
         l, s, s2 = labels, samples, samples2
     else:
-        l = labels[indices] if labels is not None else None
-        s = samples[indices]
-        s2 = samples2[indices] if samples2 is not None else None
+        l = labels.iloc[indices] if labels is not None else None
+        s = samples.iloc[indices]
+        s2 = samples2.iloc[indices] if samples2 is not None else None
 
     if labels is not None:
         if samples2 is not None:
